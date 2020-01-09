@@ -1,7 +1,7 @@
 Summary:	A C++ port of Lucene
 Name:		clucene
 Version:	2.3.3.4
-Release:	11%{?dist}
+Release:	9%{?dist}
 License:	LGPLv2+ or ASL 2.0
 Group:		Development/System
 URL:		http://www.sourceforge.net/projects/clucene
@@ -125,12 +125,6 @@ rm -rf %{buildroot}%{_libdir}/CLuceneConfig.cmake
 
 
 %changelog
-* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 2.3.3.4-11
-- Mass rebuild 2014-01-24
-
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.3.3.4-10
-- Mass rebuild 2013-12-27
-
 * Thu Nov 7 2013 Lukáš Tinkl <ltinkl@redhat.com> - 2.3.3.4-9
 - Resolves: rhbz#1027836 - clucene breaks rebuild of libreoffice
 
